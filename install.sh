@@ -19,6 +19,9 @@ mkdir ~/.config/nvim
 cd /tmp && git clone https://github.com/JuniorJairo/neovim-setup.git
 cd /tmp/neovim-setup && cp init.vim ~/.config/nvim
 
+# setting global editor variable to nvim
+echo "export EDITOR='nvim'" >> ~/.bashrc
+
 # Referencing "nvim" as "vim".;
 echo "alias vim='nvim'" >> ~/.bashrc
 
